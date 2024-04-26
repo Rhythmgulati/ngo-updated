@@ -21,6 +21,7 @@ body{
     background-color: #FFFEF9;
    
 }
+
 header{
     height: 15vh;
     display: flex;
@@ -239,7 +240,7 @@ header{
     flex-direction: column;
     flex-wrap: wrap;
     gap: 2rem;
-    padding: 5rem 3rem;
+    padding: 5rem 0rem;
     background-color:var(--primary-color);
     color:var(--dark);
 }
@@ -303,8 +304,8 @@ header{
     padding:2rem 2rem;
     /* border: 1px solid black; */
     /* border-radius: 10px; */
-    background-color: #FFFFFF;
-    box-shadow: var(--light) 5px 5px 5px 5px ;  
+    /* background-color: #FFFFFF;
+    box-shadow: var(--light) 5px 5px 5px 5px ;   */
     margin: 7px;
     display: flex;
     align-items: center;
@@ -539,10 +540,14 @@ header{
     width: 100%;
     height: 60vh;
     object-fit: cover; 
-    object-position: 0% 20%;
-    background-position-y: -20px;
+    object-position:center 20%;
 }
 
+/* our services */
+
+.our-services-content{
+    text-align: left;
+}
 
 
 /* contactus */
@@ -556,7 +561,7 @@ header{
     padding: 2rem 0;
 }
 .contactus-left{
-    width: 50%;
+    width: 40%;
     display: flex;
     align-items:center;
     text-align: left;
@@ -565,33 +570,43 @@ header{
     border-right: 1px solid black;
     height: 100%;
     justify-content: center;
+    text-transform: uppercase;
 }
 .contactus-left h2{
-    font-size: 1.9rem;
+    font-size: 1.7rem;
+    color: #3F88C5;
+
 }
 .contactus-left p{
     font-size: 1.3rem;
+    color: #E94F37;
+    font-weight: 600;
 }
-
+.contactus-left h4{
+   color: #3F88C5;
+}
 .contactus-right{
-    width: 50%;
+    width: 60%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
+.contactus-right h1{
+    color: #3F88C5;
+}
+.contactus-right p{
+    color: #E94F37;
+}
 .contactus-form{
-    
     display: flex;
     flex-direction: column;
     width: 60%;
-
     gap: 4px;
     padding: 2rem 0;
 }
 .contactus-form input{
-    padding: .4rem;
- 
+    padding: .5rem;
     font-size: 1rem;
     border-radius: 4px;
     border: 1px solid var(--light);
@@ -622,12 +637,6 @@ header{
         height: 100%;
         overflow-x: hidden;
     }
-    header{
-      position: fixed;
-      top: 0;
-      left: 0;
-      right: 0;
-    }
     .hamburger-menu{
         display: block;
         position: relative;
@@ -639,7 +648,7 @@ header{
     }
     header{
         padding:10px;
-        position: fixed;
+        position: sticky;
         top: 0;
         left: 0;
         right: 0;
@@ -799,6 +808,8 @@ header{
  .aboutus-panel{
     flex-direction: column;
     height: 100%;
+    width: 100%;
+    border-radius: 0px;
  }
  .aboutus-panel a{
     width: 100%;

@@ -1,3 +1,4 @@
+require("./db/conn");
 const express = require("express");
 const hbs = require("hbs");
 
@@ -12,6 +13,9 @@ app.use(express.static(staticpath));
 app.set("view engine","hbs");
 app.set("views",templatepath);
 hbs.registerPartials(partialpath);
+
+
+
 
 
 app.get("/",(req,res)=>{
