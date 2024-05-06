@@ -27,13 +27,16 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 3rem;
+    padding: 5px 2rem;
     position:sticky;
     /* background-color: rgb(235, 235, 235) ; */
     background-color:  #FFFEF9;;
     top: 0%;
     z-index: 99;
     border-bottom: 1px solid rgb(189, 189, 189);
+}
+header a{
+    text-decoration: none;
 }
 .header-left{
     display: flex;
@@ -223,6 +226,8 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
+    font-weight: 500;
+    color: #2E3094;
     gap: 20px;
     flex-direction: column;
     text-align: center;
@@ -241,8 +246,10 @@ header{
     flex-wrap: wrap;
     gap: 2rem;
     padding: 5rem 0rem;
-    background-color:var(--primary-color);
-    color:var(--dark);
+    /* background-color:#2E3094; */
+    background-color: #F3F2F3;
+    /* color:var(--dark); */
+    color: #2E3094;
 }
 .impact-container{
     display: flex;
@@ -261,10 +268,12 @@ header{
     width: 330px;
     gap: 7px;
     padding: 30px;
-    color:var(--light);
+    /* color:var(--light); */
+    color: #2E3094;
 }
 .impact-card h1{
-    font-size: 3rem;
+    font-size: 4rem;
+    font-weight: 700;
 }
 .impact-card p{
     width: 95%;
@@ -302,10 +311,10 @@ header{
     /* width: 45%; */
     height: 20vh;
     padding:2rem 2rem;
-    /* border: 1px solid black; */
-    /* border-radius: 10px; */
-    /* background-color: #FFFFFF;
-    box-shadow: var(--light) 5px 5px 5px 5px ;   */
+    /* border: 1px solid black;
+    border-radius: 10px; */
+    background-color: #FFFFFF;
+    box-shadow: var(--light) 5px 5px 5px 5px ;  
     margin: 7px;
     display: flex;
     align-items: center;
@@ -329,10 +338,11 @@ header{
     color: var(--primary-color);
 }
 .program-card-top img{
-    width:200px;
+    width:170px;
 }
 .program-card-bottom p{
     width: 70%;
+    color: #2E3094;
 }
 
 /* imapct storiess */
@@ -340,18 +350,20 @@ header{
 .impact-stories-section{
     height: 60vh;
     width: 100%;
-    background: url("images/bg-images/top-view-diversity-composition-with-different-colored-paper-hands-with-copy-space.jpg");
+    background: url("images/bg-images/top-view-diversity-composition-with-different-colored-paper-hands-with-copy-space-removebg-preview.png");
     object-fit:cover;
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position-y: -100px;
+    background-color: #F3F2F3;
+    background-position-y:-80px ;
+    background-size: 80%;
+    object-fit: cover;
     padding: 2rem;
-    border-top: 2px solid var(--primary-color);
-    border-bottom:  2px solid var(--primary-color);;
+    /* border-top: 2px solid var(--primary-color);
+    border-bottom:  2px solid var(--primary-color);; */
 }
 .impact-stories-section h1{
   margin-left: 60%;  
-  color: var(--primary-color); 
+  color:#2E3094; 
 }
 
 .swiper {
@@ -377,6 +389,7 @@ header{
 .impact-card-text{
     text-align: right;
     width: 40%;
+    color: #393E41;
     /* margin-right: 35px; */
 }
 
@@ -505,7 +518,7 @@ header{
 .aboutus-panel{
     width: 80%;
     margin: 2rem auto;
-    background-color: var(--primary-color);
+    background-color:#2E3094;
     height: 4rem;
     display: flex;
     border-radius: 10px;
@@ -516,6 +529,7 @@ header{
 .aboutus-panel a{
     text-decoration: none;
     color: var(--light);
+    font-weight: 500;
     padding: 20px;
     border-radius: 5px;
     /* border: 1px solid var(--light); */
@@ -548,6 +562,9 @@ header{
 .our-services-content{
     text-align: left;
 }
+.our-services-content h3{
+    color: #2E3094;
+}
 
 
 /* contactus */
@@ -574,7 +591,7 @@ header{
 }
 .contactus-left h2{
     font-size: 1.7rem;
-    color: #3F88C5;
+    color:#2E3094;
 
 }
 .contactus-left p{
@@ -583,7 +600,7 @@ header{
     font-weight: 600;
 }
 .contactus-left h4{
-   color: #3F88C5;
+   color:#2E3094
 }
 .contactus-right{
     width: 60%;
@@ -593,7 +610,7 @@ header{
     justify-content: center;
 }
 .contactus-right h1{
-    color: #3F88C5;
+    color:#2E3094
 }
 .contactus-right p{
     color: #E94F37;
