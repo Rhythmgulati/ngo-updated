@@ -633,9 +633,10 @@ header a{
 .contactus-left{
     width: 40%;
     display: flex;
-    align-items:center;
+    /* align-items:center; */
     text-align: left;
     /* justify-content: center; */
+    padding-left: 1rem;
     flex-direction: column;
     border-right: 1px solid black;
     height: 100%;
@@ -696,6 +697,31 @@ header a{
 
 }
 
+
+/* mediacenter page */
+.mediacenter-heading{
+    color: #2E3094;
+    text-align: center;
+    padding: 1rem;
+    position: sticky;
+    top: 15vh;
+    background-color: #F3F2F3;
+    left: 0;
+    right: 0;
+}
+
+.mediacenter-container{
+  padding: 1rem ;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+.mediacenter-container img{
+    width: 32%;
+    padding: 4px;
+    border-radius: 2px;
+}
 
 
 /* media queries */
@@ -895,4 +921,9 @@ header a{
     padding: 4rem 1rem;
     font-size: 1.2rem;
  }
+
+ /* mediacorner */
+ .mediacenter-container img{
+    width: 100%;
+}
 }
