@@ -152,7 +152,7 @@ header a{
     opacity: 1;
 }
 
-.header-right-row button {
+.donatebtn {
     background: linear-gradient(to right,rgb(101, 169, 0),rgb(125, 208, 0));
     color: white;
     padding: 10px 20px;
@@ -252,6 +252,11 @@ header a{
     /* color:var(--dark); */
     color: #2E3094;
 }
+.ourimpact-section h1{
+    color: #393E41;
+   font-size: 2rem;
+
+}
 .impact-container{
     display: flex;
     justify-content: space-evenly;
@@ -272,8 +277,10 @@ header a{
     color: #2E3094;
 }
 .impact-card h1{
-    font-size: 4rem;
+    font-size: 3.5rem;
     font-weight: 700;
+    color: #2E3094;
+
 }
 .impact-card p{
     width: 95%;
@@ -309,6 +316,7 @@ header a{
 }
 .program-card{
     /* width: 45%; */
+    width: 45vw;
     height: 20vh;
     padding:2rem 2rem;
     /* border: 1px solid black;
@@ -341,7 +349,7 @@ header a{
     width:170px;
 }
 .program-card-bottom p{
-    width: 70%;
+    width: 80%;
     color: #2E3094;
 }
 
@@ -431,14 +439,11 @@ header a{
 
 }
 .campain-card{
-    height: 70vh;
+    
     width: 20%; 
      
 }
-.campain-card h1{
-    font-size: 2rem;
-    
-}
+
 .campain-img{
     height: 40vh;
     width: 100%;
@@ -462,14 +467,26 @@ header a{
 }
 
 .campain-card h1{
+    font-size: 1.4rem;
+    width: 20%;
     position: absolute;
+    text-align: start;
     color:#F3F2F3;
-    padding: 1rem;
+    padding-left: .3rem;
+    padding-bottom: 1rem;
+    
 }
 .campain-card p{
     color:#2E3094;
+    padding: 1rem 0;
 }
 
+.campain-section .donatebtn{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 4px;
+}
 
 
 /* footer section */
@@ -519,6 +536,10 @@ header a{
     width: 60%;
     color: var(--light);
     padding: 0 3rem;
+}
+.footer-bottom-left a{
+    text-decoration: none;
+    color: #F3F2F3;
 }
 .footer-bottom-left h2{
    font-weight: 300;
@@ -668,6 +689,7 @@ header a{
 }
 .contactus-right p{
     color: #E94F37;
+    text-align: center;
 }
 .contactus-form{
     display: flex;
@@ -722,7 +744,41 @@ header a{
     padding: 4px;
     border-radius: 2px;
 }
+.mediacenter-container img:nth-last-child(2){
+    width: 50%;
+}
+.mediacenter-container img:nth-last-child(1){
+    width: 50%;
+}
 
+
+
+/* get involved */
+
+.involved-top{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2rem;
+    padding: 6rem 0;
+    justify-content:center;
+}
+.involved-main h1{
+   color: #2E3094;
+}
+.involved-top-right p{
+    color: #2E3094;
+    font-size: 1.2rem;
+}
+.involved-top-right{
+    width: 50%;
+}
+.involved-card{
+    padding: 4rem;
+}
+.involved-card p{
+    font-size: 1.2rem;
+}
 
 /* media queries */
 
@@ -925,5 +981,15 @@ header a{
  /* mediacorner */
  .mediacenter-container img{
     width: 100%;
+}
+
+/* involved */
+
+.involved-top-right{
+    width: 100%;
+    padding: 2rem;
+}
+.involved-top-left{
+    padding: 2rem;
 }
 }

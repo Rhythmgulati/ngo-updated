@@ -36,6 +36,9 @@ app.get("/ourservices",(req,res)=>{
 app.get("/mediacenter",(req,res)=>{
     res.render("mediacenter")
 })
+app.get("/getinvolved",(req,res)=>{
+    res.render("getinvolved")
+})
 
 
 
